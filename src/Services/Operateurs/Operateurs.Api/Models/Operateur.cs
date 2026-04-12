@@ -7,8 +7,9 @@ public class Operateur
     public string Nom { get; set; } = null!;
     public string Prenoms { get; set; } = null!;
     public string? Email { get; set; }
-    public string Telephone { get; set; } = null!;
+    public string Telephone1 { get; set; } = null!;
+    public string? Telephone2 { get; set; }
     public bool EstCooperateur { get; set; } = false;
     public string? Localite { get; set; }
-
+    public string? observations { get; set; }
 }
