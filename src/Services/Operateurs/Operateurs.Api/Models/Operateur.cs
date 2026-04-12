@@ -12,4 +12,5 @@ public class Operateur
     public bool EstCooperateur { get; set; } = false;
     public string? Localite { get; set; }
     public string? observations { get; set; }
+    public string? Qualite { get; set; }
 }
